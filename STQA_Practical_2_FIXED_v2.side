@@ -1,0 +1,210 @@
+{
+  "id": "5672292f-fbaf-46da-9e54-b3550798cf1d",
+  "version": "2.0",
+  "name": "STQA Practical 2 - Cross Website Functional Testing FIXED",
+  "url": "https://www.saucedemo.com/",
+  "tests": [
+    {
+      "id": "320ee1a0-8c72-4dea-9492-b11452acadb7",
+      "name": "TEST_CASE_01_SauceDemo",
+      "commands": [
+        {
+          "id": "6c6f6962-4e50-4c0a-8042-c38fd10276c6",
+          "comment": "",
+          "command": "open",
+          "target": "https://www.saucedemo.com/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "da6035ee-9c03-4c05-a972-227e76b06e81",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "1280x800",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d2712130-b0c6-4b53-b0eb-ca2f45755beb",
+          "comment": "",
+          "command": "pause",
+          "target": "1200",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "86d6b27f-5cca-4b7b-afbc-fe9b7ab03b8d",
+          "comment": "",
+          "command": "executeScript",
+          "target": "var e=document.getElementById('user-name');var s=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;s.call(e,'standard_user');e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "dede7c3b-eb30-4ce0-b7aa-2d7d821176e0",
+          "comment": "",
+          "command": "executeScript",
+          "target": "var e=document.getElementById('password');var s=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;s.call(e,'secret_sauce');e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "861d73de-e639-46e5-bc67-ea1dd2a7a52e",
+          "comment": "",
+          "command": "click",
+          "target": "id=login-button",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cf17e5f0-4ee7-4c75-a5db-2c867e6b7477",
+          "comment": "",
+          "command": "pause",
+          "target": "1500",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "855c4e3e-c3d3-4631-9c2c-9f27a26bd0f2",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=.title",
+          "targets": [],
+          "value": "Products"
+        },
+        {
+          "id": "49c11ddd-ab2e-4685-8f0f-e1aa1153c0af",
+          "comment": "",
+          "command": "select",
+          "target": "css=[data-test='product-sort-container']",
+          "targets": [],
+          "value": "label=Price (low to high)"
+        },
+        {
+          "id": "a8af1141-dacb-449d-8c06-43e79d0e35fd",
+          "comment": "",
+          "command": "pause",
+          "target": "700",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "61896f24-4d38-43a0-b44b-04e4c6f4c482",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=.inventory_item_price",
+          "targets": [],
+          "value": "$7.99"
+        },
+        {
+          "id": "31fc1d1c-ef3d-41e2-824b-c64b5b8ce210",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "7a136a0a-8942-4814-a2e5-dbf3f7a631d7",
+      "name": "TEST_CASE_02_Herokuapp_Dropdown",
+      "commands": [
+        {
+          "id": "8dfa9cfe-9898-434f-848a-11542eac2ff2",
+          "comment": "",
+          "command": "open",
+          "target": "https://the-internet.herokuapp.com/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "bd3eee61-777c-40de-a357-d9077f71ed45",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "1280x800",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a132f456-c7c5-4408-af5d-51b24b09862b",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5fc5f48e-27fb-44d7-915b-3a92319bc06c",
+          "comment": "",
+          "command": "click",
+          "target": "linkText=Dropdown",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ecb4f49a-4ba2-4a5f-b834-40c23b2a58b6",
+          "comment": "",
+          "command": "pause",
+          "target": "1000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2b2f31cc-7c97-4c84-9cd2-5db3ac727667",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=h3",
+          "targets": [],
+          "value": "Dropdown List"
+        },
+        {
+          "id": "e44b6c76-f60d-4570-a2e5-d617e69b0109",
+          "comment": "",
+          "command": "select",
+          "target": "id=dropdown",
+          "targets": [],
+          "value": "label=Option 2"
+        },
+        {
+          "id": "93f83751-4eae-4b8b-ac7e-24e4ad46ce0f",
+          "comment": "",
+          "command": "assertSelectedValue",
+          "target": "id=dropdown",
+          "targets": [],
+          "value": "2"
+        },
+        {
+          "id": "6636a119-81f4-4651-9165-79994c5ce16c",
+          "comment": "",
+          "command": "close",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "d2b5c0bb-1501-4ad2-abcf-74febdabaaf5",
+      "name": "Practical_2_Test_Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        {
+          "id": "320ee1a0-8c72-4dea-9492-b11452acadb7"
+        },
+        {
+          "id": "7a136a0a-8942-4814-a2e5-dbf3f7a631d7"
+        }
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.saucedemo.com/",
+    "https://the-internet.herokuapp.com/"
+  ],
+  "plugins": []
+}

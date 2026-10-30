@@ -1,0 +1,217 @@
+{
+  "id": "e26f2437-10b1-402a-af2e-83d9045b06f3",
+  "version": "2.0",
+  "name": "practical no.1",
+  "url": "https://the-internet.herokuapp.com/login",
+  "tests": [{
+    "id": "c9444bb5-d43c-4c1b-bf87-a4b0eccfbc2e",
+    "name": "TEST_CASE_01",
+    "commands": [{
+      "id": "1e772f88-b0b9-430b-b2a6-be640bb9f8ce",
+      "comment": "",
+      "command": "open",
+      "target": "https://example.com",
+      "targets": [],
+      "value": "https://example.com"
+    }, {
+      "id": "52e38315-31b5-4275-b6a9-bc59af87f652",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1328x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8e7cb18-edd0-4e88-8c80-498e554cff6b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Example Domain",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93edc3a1-dc7b-423f-a202-aaeee295f345",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Example Domain",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ab77004-d92d-4cc7-9f64-57cb287c6ab9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d537a6b4-c15e-442c-85f8-ede0029333fd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [],
+      "value": "This domain is for use in documentation examples without needing permission. This is not a service; avoid relying on it for testing and monitoring purposes."
+    }]
+  }, {
+    "id": "50619d86-bf7e-4365-9b4f-6b126075b965",
+    "name": "TEST_CASE_02",
+    "commands": [{
+      "id": "17414b93-7a74-492f-9863-5713a80b9a74",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.w3schools.com/xml/xml_examples.asp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d97335a-efd9-4f1b-884c-f6cb3be9ed01",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x645",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45dce0b0-fd8c-4e64-bda4-be5c81bdd43c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.with-bookmark",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "913eea5e-f9e4-443c-ab71-28a6be46de24",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.with-bookmark ",
+      "targets": [],
+      "value": "XML Examples"
+    }, {
+      "id": "e5f33d3e-193f-46e2-a582-80f6b6065f26",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "07e1dd1d-e3b1-435a-b89a-07e59069849e",
+    "name": "TEST_CASE_03",
+    "commands": [{
+      "id": "34ae54c7-f79b-44c6-a32c-1ff58df281f2",
+      "comment": "",
+      "command": "open",
+      "target": "https://jsonhero.io/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0200cc4-fdcb-48ed-87b4-189db18038be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x396",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d98cee0b-e5e8-4599-9394-8c6c374655e0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.items-stretch",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4954407-bcae-46d1-8725-34a6b730f518",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.items-stretch",
+      "targets": [],
+      "value": "JSON sucks.\\nBut we're making it better.\\nStop staring at thousand line JSON files in your editor and start staring at thousand line JSON files in the world's best JSON viewer. With a few nice features to help make it not the worst."
+    }, {
+      "id": "09f18782-0a56-4aeb-ab60-acb1dfd82b3c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.items-stretch",
+      "targets": [],
+      "value": "JSON sucks.\\nBut we're making it better.\\nStop staring at thousand line JSON files in your editor and start staring at thousand line JSON files in the world's best JSON viewer. With a few nice features to help make it not the worst."
+    }, {
+      "id": "87b0591c-42ca-4da3-84a3-9989aecfa577",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1eae643d-5751-4cbe-b291-0979ecdfb556",
+    "name": "TEST_CASE_04",
+    "commands": [{
+      "id": "ba5cfad6-2727-442c-8f03-d1fcb2043b23",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3d7d190-cf02-45d5-99c7-ba0a88b00dad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1020x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2297d84b-0c9d-48b7-a2a3-91e1306adc88",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "216cdf49-dac6-4309-8958-265111b6ff24",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementById('username').value='tomsmith'",
+      "targets": [],
+      "value": "tomsmith"
+    }, {
+      "id": "0bcf9a07-63a3-4d4e-a39b-73b4ef68d721",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementById('password').value='SuperSecretPassword!'",
+      "targets": [],
+      "value": "SuperSecretPassword!"
+    }, {
+      "id": "61246bae-132b-486b-a891-e05fe02110f2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Login')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5a8128f-2ab0-4a08-997a-007032927fb7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#flash.success",
+      "targets": [],
+      "value": "You logged into a secure area!"
+    }, {
+      "id": "07b422bb-89f4-4d18-9758-7418acea79f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-2x",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdeb72df-afa1-4ba4-8c8b-f32f59f0cca7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1f322741-ab17-47a3-bf6d-197d9e33a517",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9444bb5-d43c-4c1b-bf87-a4b0eccfbc2e"]
+  }],
+  "urls": ["https://example.com/", "https://www.w3schools.com/xml/xml_examples.asp", "https://jsonhero.io/", "https://theinternet.herokuapp.com/login", "https://the-internet.herokuapp.com/login"],
+  "plugins": []
+}
